@@ -2,6 +2,10 @@ Hi All,
 
 We have listed down some excercises to evaluate our skills in C/Linux development. (You may combine the following excercises)
 
+Operators:
+1) Demo "Ternary/Unary" and "Bitwise" operators
+2) Try to enable/disable a specific "BIT" in a integer variable.
+
 File Handling:
 1) Write a code to insert a line in middle of file
 2) Create three threads to write to same file
