@@ -59,3 +59,8 @@ Compilation:
 Database:
 1) Try to demo SQL queries
 2) Try to compile a C program with "sqlite3" library and show a demo for how to use "sqlite3 database"?
+
+
+Kernel Programming:
+1) Show a demo of how to compile a sample kernel module and run it.
+2) Read about how user-space to kernel-space communication happens?
