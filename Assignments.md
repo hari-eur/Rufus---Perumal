@@ -27,6 +27,7 @@ IPC:
 1) Write a code for client & server communication using sockets 
   (i.e Server will send variable length of string and Client should able to read & print variable length strings)
   (i.e Please embed the variable length string inside a struct and send it over Socket)
+  (i.e Should handle error number for all Socket APIs and print "errno" also in caes of failures)
 2) Write a code to demo "netlink" IPC
 3) Write a code to demo "Pipes" IPC
 4) Write a code to demo "MsgQueue" IPC
