@@ -55,3 +55,7 @@ Compilation:
 1) Write a Makefile to compile atleast three .c file and two .h files (i.e Keep .c files in "src" folder and .h files in "include" folder)
 2) Write a Makefile to generate a sample dynamic(.so) and static(.a) libraries and link them with sample application
 3) Should be able to compile your program with some external open source pkgs (i.e openssl, grpc, kafka, etc)
+
+Database:
+1) Try to demo SQL queries
+2) Try to compile a C program with "sqlite3" library and show a demo for how to use "sqlite3 database"?
