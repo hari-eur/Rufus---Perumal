@@ -1,0 +1,47 @@
+CREATE DATABASE mydatabase;
+USE mydatabase;
+
+CREATE TABLE users (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  age INT NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO users (name, age) VALUES ('Alice', 25),
+                                     ('Bob', 30),
+				                             ('Charlie', 35),
+				                             ('Michael', 14),
+				                             ('Rufus', 21),
+				                             ('JOhn', 62);
+
+
+SELECT * FROM users;
+
+SELECT * FROM users WHERE age > 30;
+
+SELECT * FROM users ORDER BY name ASC;
+
+SELECT * FROM users LIMIT 2;
+
+SELECT age, COUNT(*) FROM users GROUP BY age;
+
+SELECT COUNT(*) FROM users WHERE age > 30;
+
+
+
+SELECT DISTINCT age FROM users;
+
+SELECT * FROM users WHERE name LIKE 'B%';
+
+SELECT * FROM users WHERE age IN (25, 30);
+
+SELECT * FROM users WHERE NOT age = 30;
+
+SELECT MAX(age) FROM users;
+
+
+
+
+
+
