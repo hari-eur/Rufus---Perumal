@@ -10,10 +10,10 @@ CREATE TABLE users (
 
 INSERT INTO users (name, age) VALUES ('Alice', 25),
                                      ('Bob', 30),
-				                             ('Charlie', 35),
-				                             ('Michael', 14),
-				                             ('Rufus', 21),
-				                             ('JOhn', 62);
+				     ('Charlie', 35),
+				     ('Michael', 14),
+				     ('Rufus', 21),
+				     ('JOhn', 62);
 
 
 SELECT * FROM users;
