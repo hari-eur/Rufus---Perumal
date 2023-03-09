@@ -18,7 +18,7 @@ INSERT INTO customers (customer_id, customer_name) VALUES
 (1, Logan Paul'),
 (2, 'David Dobrik'),
 (3, 'Jimmy Collins'),
-(4, Lannan Eacott');
+(4, 'Lannan Eacott');
 
 INSERT INTO orders (order_id, customer_id, order_date) VALUES
 (1, 1, '2022-01-01'),
