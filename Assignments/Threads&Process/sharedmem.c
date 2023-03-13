@@ -5,7 +5,7 @@
 
 int main() 
 {
-    const int SHM_SIZE = sizeof(int);
+    const int SHM_SIZE=sizeof(int);
 
     // Create shared memory region
     int* shared_var=mmap(NULL,SHM_SIZE,PROT_READ | PROT_WRITE,MAP_SHARED | MAP_ANONYMOUS,-1,0);
@@ -33,7 +33,7 @@ int main()
         {
             // Increment shared variable
             (*shared_var)++;
-            printf("Child process: shared_var = %d\n", *shared_var);
+            printf("Child process: shared_var = %d\n",*shared_var);
             sleep(1);
         }
         printf("Child process finished.\n");
@@ -45,14 +45,14 @@ int main()
         {
             // Increment shared variable
             (*shared_var)++;
-            printf("Parent process: shared_var = %d\n", *shared_var);
+            printf("Parent process: shared_var = %d\n",*shared_var);
             sleep(1);
         }
         printf("Parent process finished.\n");
     }
 
     // Cleanup shared memory region
-    if (munmap(shared_var, SHM_SIZE)==-1)
+    if (munmap(shared_var,SHM_SIZE)==-1)
     {
         perror("munmap");
         exit(1);
