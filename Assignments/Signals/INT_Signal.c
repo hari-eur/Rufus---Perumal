@@ -5,7 +5,7 @@
 
 void sighandler(int);
 
-int main () 
+int main() 
 {
    signal(SIGINT,sighandler);
 
