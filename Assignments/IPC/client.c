@@ -4,7 +4,7 @@
 #include <sys/socket.h> //for socket APIs
 #include <sys/types.h>
 
-int main(int argc, char const* argv[])
+int main()
 {
 	int sockD=socket(AF_INET,SOCK_STREAM,0);
 
